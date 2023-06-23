@@ -101,7 +101,7 @@ def count_vehicle(inputpath, scale_percent):
 if __name__ == '__main__':
     curdir = Path.cwd()
     #print(curdir, type(curdir))
-    videodir = Path.joinpath(curdir, "cctv_highway")
+    videodir = Path.joinpath(curdir, "inputdir")
     videolist = os.listdir(videodir)
     outdir = Path.joinpath(curdir, "resultdir")
     shutil.rmtree(outdir, ignore_errors=True)
