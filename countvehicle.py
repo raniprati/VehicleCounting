@@ -42,7 +42,7 @@ def count_vehicle(inputpath, scale_percent):
                                    fps, (width, height))
     success = 1
     while success:
-        # vidObj object calls read unction extract frames
+        # vidObj object calls read function to extract frames
         success, frame = video.read()
         if success:
             # Applying resizing of read frame
